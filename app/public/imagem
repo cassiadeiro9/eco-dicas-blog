@@ -1,0 +1,18 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <section className="intro w-full px-10 py-12">
+      <Image 
+        src="/images/reciclagem-globo.png" // imagem salva em /public/images
+        alt="Símbolo de reciclagem com globo terrestre"
+        width={600}
+        height={400}
+        className="rounded-xl shadow-md"
+      />
+      <h2 className="text-3xl font-bold text-green-800 mt-6">
+        Bem-vindo ao Blog EcoDicas Sustentáveis
+      </h2>
+    </section>
+  );
+}

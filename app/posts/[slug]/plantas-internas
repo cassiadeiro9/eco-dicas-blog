@@ -1,0 +1,17 @@
+export default function PlantasInternas() {
+  return (
+    <div className="home-container">
+      <h2>Plantas para ambientes internos</h2>
+      <p>
+        Ter plantas dentro de casa ajuda a purificar o ar e melhora o bem-estar:
+      </p>
+      <ul>
+        <li>Espada-de-São-Jorge: purifica o ar e é fácil de cuidar.</li>
+        <li>Jibóia: ótima para ambientes internos e resistente.</li>
+        <li>Lírio-da-paz: elimina toxinas e tem flores bonitas.</li>
+        <li>Samambaia: perfeita para banheiros e áreas úmidas.</li>
+      </ul>
+      <p>Escolha plantas que se adaptam ao seu espaço e rotina!</p>
+    </div>
+  );
+}
